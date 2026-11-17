@@ -10,20 +10,20 @@ This MVP focuses on **invoice understanding + early risk detection**, helping ex
 
 ---
 
-## 🎯 The Problem (Very Real)
+## The Problem 
 
 Indian exporters frequently face:
-- ❌ Missing IEC, GSTIN, HSN, or Incoterms
-- ❌ Incorrect invoice currency usage
-- ❌ GST / LUT conflicts
-- ❌ Manual checks with no risk visibility
-- ❌ Customs queries, shipment delays, and refund blocks
+-  Missing IEC, GSTIN, HSN, or Incoterms
+-  Incorrect invoice currency usage
+-  GST / LUT conflicts
+-  Manual checks with no risk visibility
+-  Customs queries, shipment delays, and refund blocks
 
-👉 Even a single invoice error can delay or block an entire shipment.
+ Even a single invoice error can delay or block an entire shipment.
 
 ---
 
-## ✅ MVP Solution
+##MVP Solution
 
 Agentic Export Ops acts as a **defensive AI assistant** for exporters:
 
@@ -33,32 +33,32 @@ Agentic Export Ops acts as a **defensive AI assistant** for exporters:
 - Explains *what is wrong* and *what to fix*
 - Predicts **likely customs actions** (query, delay, rejection)
 
-> ⚠️ The system flags risk — **final decisions remain with the exporter** (compliance-safe by design).
+>  The system flags risk — **final decisions remain with the exporter** (compliance-safe by design).
 
 ---
 
-## 🚀 MVP Features (Feb Launch Scope)
+##  MVP Features (Feb Launch Scope)
 
-### 1️⃣ Invoice Data Extraction
+### Invoice Data Extraction
 - Invoice number & date
 - Seller & buyer details (when available)
 - Currency, subtotal, tax, total (AI-assisted)
 - Structured JSON output
 
-### 2️⃣ Export-Critical Fields
+###  Export-Critical Fields
 - **IEC Code**
 - **GSTIN**
 - **HSN Code**
 - **Incoterms** (FOB, CIF, EXW, etc.)
 - **LUT reference** (if present)
 
-### 3️⃣ Risk Assessment (Core Differentiator)
+### Risk Assessment (Core Differentiator)
 - Risk score (0–100)
 - Risk level: Low / Medium / High
 - Clear, human-readable risk reasons
 - Actionable fix suggestions
 
-### 4️⃣ Customs Impact Intelligence
+### Customs Impact Intelligence
 - Predicts likely customs actions:
   - Shipment rejection
   - Customs query
@@ -66,7 +66,7 @@ Agentic Export Ops acts as a **defensive AI assistant** for exporters:
   - Refund blockage
 - Severity-based alerts (High / Medium)
 
-### 5️⃣ Clean Streamlit UI
+### Clean Streamlit UI
 - Dark-theme interface
 - One-click PDF upload
 - Instant feedback
@@ -74,7 +74,7 @@ Agentic Export Ops acts as a **defensive AI assistant** for exporters:
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. Exporter uploads a commercial invoice PDF  
 2. System extracts text using defensive PDF parsing  
@@ -85,7 +85,7 @@ Agentic Export Ops acts as a **defensive AI assistant** for exporters:
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 - **Python**
 - **Streamlit** (UI)
@@ -95,5 +95,5 @@ Agentic Export Ops acts as a **defensive AI assistant** for exporters:
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
